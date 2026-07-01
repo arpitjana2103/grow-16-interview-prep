@@ -14,6 +14,7 @@
     "rules": {
         "eslint/no-unused-vars": "off",
         "eslint/no-underscore-dangle": "off",
+        "eslint/no-extend-native": "off",
         "typescript/explicit-function-return-type": "off",
         "typescript/no-unsafe-type-assertion": "off",
         "unicorn/no-empty-file": "off",

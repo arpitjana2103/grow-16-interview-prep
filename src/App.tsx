@@ -1,7 +1,9 @@
+import "./../polyfills/map.polyfill";
+
 function App() {
     return (
         <>
-            <h1>Hello World</h1>
+            <h1 className="font-bold text-cyan-900">Hello World</h1>
         </>
     );
 }
