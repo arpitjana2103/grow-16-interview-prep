@@ -1,5 +1,11 @@
 import { useState } from "react";
 
+// const data = [
+//     { id: "A", label: "TabA", component: <TabA /> },
+//     { id: "B", label: "TabB", component: <TabB /> },
+//     { id: "C", label: "TabC", component: <TabC /> },
+// ];
+
 type Props = {
     data: { id: string; label: string; component: React.ReactNode }[];
 };
