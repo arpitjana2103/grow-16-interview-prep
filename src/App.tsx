@@ -1,10 +1,11 @@
-// import "./../polyfills/map.polyfill";
-import "./../polyfills/filter.polyfill";
-
-// import Tabs from "./MCR/Tabs/Tabs";
+import { Button } from "@/components/ui/button";
 
 function App() {
-    return <>{/*<Tabs data={data} />*/}</>;
+    return (
+        <div className="flex min-h-svh flex-col items-center justify-center">
+            <Button>Click me</Button>
+        </div>
+    );
 }
 
 export default App;
