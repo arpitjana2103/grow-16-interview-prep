@@ -75,7 +75,7 @@ export default function IndeterminateCheckbox() {
             }
             checkMeAndChildrens(dataNode);
 
-            // 2. Returns true if all children of a node are checked
+            // Return `true` if all childrens are checked
             function areAllChildrenChecked(node: TCheckDataNode): boolean {
                 if (node.children && node.children.length > 0) {
                     return node.children.every((child) => areAllChildrenChecked(child));
@@ -84,6 +84,7 @@ export default function IndeterminateCheckbox() {
                 }
             }
 
+            // Returns `true` if any childrens are checked
             function areAnyChildrenChecked(node: TCheckDataNode): boolean {
                 if (node.children && node.children.length > 0) {
                     return node.children.some((child) => areAnyChildrenChecked(child));
