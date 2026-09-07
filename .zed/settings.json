@@ -49,10 +49,10 @@
     },
     "languages": {
         "CSS": {
-            "language_servers": ["!vscode-css-language-server"],
+            "language_servers": ["vscode-css-language-server"],
             "format_on_save": "on",
             "prettier": {
-                "allowed": false
+                "allowed": true
             },
             "formatter": "language_server"
         },
@@ -155,17 +155,8 @@
             ]
         },
         "YAML": {
-            "format_on_save": "on",
-            "prettier": {
-                "allowed": false
-            },
-            "formatter": [
-                {
-                    "language_server": {
-                        "name": "oxfmt"
-                    }
-                }
-            ]
+            "tab_size": 2,
+            "format_on_save": "off"
         }
     }
 }
